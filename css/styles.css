@@ -1,0 +1,166 @@
+body {
+	font-size: 20px;
+	font-family: 'Oxygen', sans-serif;
+	box-sizing: border-box;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #00013a;
+	border-radius: 0;
+	border-top: 4px solid rgb(180, 165, 0);
+	border-bottom: 4px solid rgb(180, 165, 0);
+}
+.navbar-brand {
+	padding-top: 35px;
+	height: 100px;
+}
+
+.navbar-brand h1 {
+	/* Restaurant name */
+	font-family: 'Lora', serif;
+	color: rgb(180, 165, 0);
+	font-size: 4rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 25px;
+	font-weight: bolder;
+}
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p span {
+	/* Star-K */
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #ffffff;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: rgba(180, 165, 0, 0.6);
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+	border: 1px solid rgba(180, 165, 0, 0.6);
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -60px;
+	margin-bottom: 20px;
+}
+
+#collapsable-nav a {
+	/* Collapsed nav menu text */
+	font-size: 1.2em;
+}
+
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
+}
+.OurMenu {
+	font-weight: bolder;
+	font-size: 4rem;
+	font-family: 'lora';
+}
+#Chicken {
+	background-color: silver;
+	padding: 20px;
+	margin: 8px;
+}
+#Beef {
+	background-color: silver;
+	padding: 20px;
+	margin: 8px;
+}
+#Sushi {
+	background-color: silver;
+	padding: 20px;
+	margin: 8px;
+}
+
+#Chicken h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bolder;
+}
+#Beef h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bolder;
+}
+#Sushi h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-weight: bolder;
+}
+
+/* FOOTER */
+.panel-footer {
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+	/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 {
+		/* Restaurant name */
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	#collapsable-nav a {
+		/* Collapsed nav menu text */
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		/* Collapsed nav menu glyph */
+		font-size: 1em;
+		margin-right: 5px;
+	}
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+	/* Header */
+	.navbar-brand h1 {
+		/* Restaurant name */
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+	/* End Header */
+
+	/* Home page */
+	#menu-tile,
+	#specials-tile {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+	.col-xxs-12 {
+		position: relative;
+		min-height: 1px;
+		padding-right: 15px;
+		padding-left: 15px;
+		float: left;
+		width: 100%;
+	}
+}
